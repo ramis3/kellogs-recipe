@@ -978,13 +978,13 @@ recipe = {
 }
 
 
-name = "Christmas Morning"
+name = "Life In Color"
 
-link = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Christmas%20Morning.png?alt=media&token=34a094bb-f535-4af8-b8ab-945406a7ddd5"
+link = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Life%20in%20Color.png?alt=media&token=e7ce7efd-31aa-4a00-8ecc-238ea8e5a1b5"
 
-name2 = "Churro"
+name2 = "Maled Nutty Banana"
 
-link2 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Churro.png?alt=media&token=02bab79c-03c8-4fc7-9516-3aacf19b6b79"
+link2 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Malted%20Nutty%20Banana.png?alt=media&token=4ab0d14b-016a-4a60-85f9-6c983a0889ad"
 
 name3 = "Coffee Meringue"
 

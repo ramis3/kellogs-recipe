@@ -1,1 +1,1 @@
-web: gunicorn —-chdir kellogs kellogs_rest_api:app
+web: gunicorn kellogs kellogs_rest_api:app
