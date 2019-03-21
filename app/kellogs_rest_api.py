@@ -1,10 +1,11 @@
+from app import app
 import pyrebase
 from flask import Flask, request, send_file
 from flask_restful import Resource, Api
 from json import dumps
 from flask_jsonpify import jsonify
 
-
+api = Api(app)
 
 config = {
     "apiKey": "AIzaSyAPFjcbSU9AcY3pVaUpsr5t-Fai-PPS3KI",
@@ -45,5 +46,3 @@ api.add_resource(Recipe_List, '/recipe')
 api.add_resource(Cereal_List, '/cereal')
 api.add_resource(Image, '/image/<image_name>')
 
-if __name__ == '__main__':
-    app.run(debug=True)
