@@ -1,1 +1,1 @@
-web: gunicorn kellogs kellogs_rest_api:app
+web: gunicorn app:app
