@@ -977,7 +977,62 @@ recipe = {
                    ]
 }
 
-image = st.child("gs://kellogg-s-recipe-api.appspot.com").download("baklava.png")
+
+name = "Christmas Morning"
+
+link = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Christmas%20Morning.png?alt=media&token=34a094bb-f535-4af8-b8ab-945406a7ddd5"
+
+name2 = "Churro"
+
+link2 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Churro.png?alt=media&token=02bab79c-03c8-4fc7-9516-3aacf19b6b79"
+
+name3 = "Coffee Meringue"
+
+link3 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Coffee%20Meringue.png?alt=media&token=54881573-c208-4432-945a-4871a32b1767"
+
+name4 = "Corny Blues"
+
+link4 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Corny%20Blues.png?alt=media&token=77d4a3f3-df45-403a-bf01-11600590647c"
+
+name5 = "Can Apple Crisp"
+
+link5 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Cran-Apple%20Crisp.png?alt=media&token=88573adb-4f37-4749-a1a7-5204697d4a0c"
+
+name6 = "Duper Super"
+
+link6 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Duper%20Super.png?alt=media&token=7d56d89e-cfea-46a6-ad0f-aad112d0f34c"
+
+name7 = "Harvest Swoon"
+
+link7 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Harvest%20Swoon.png?alt=media&token=6824b0c9-5b5f-4a14-976b-045e8fdd54c2"
+
+name8 = "Hello Dolly"
+
+link8 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Hello%20Dolly.png?alt=media&token=c4a0b53b-09bc-48c8-a12d-66cfaa731326"
+
+name9 = "Honey Buzz"
+
+link9 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Honey%20Buzz.png?alt=media&token=7bfe846b-7b52-4029-885a-527227e3d074"
+
+name10 = "Lemon Meringue Pie"
+
+link10 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Lemon%20Meringue%20Pie.png?alt=media&token=96676827-d2f4-4e31-8870-bf6acb677b50"
+
+
+db.child("images").child(name).set(link)
+db.child("images").child(name2).set(link2)
+db.child("images").child(name3).set(link3)
+db.child("images").child(name4).set(link4)
+db.child("images").child(name5).set(link5)
+db.child("images").child(name6).set(link6)
+db.child("images").child(name7).set(link7)
+db.child("images").child(name8).set(link8)
+db.child("images").child(name9).set(link9)
+db.child("images").child(name10).set(link10)
+
+#image = st.child("gs://kellogg-s-recipe-api.appspot.com").download("baklava.png")
+
+
 
 
 #db.child("recipe-list").set(recipe)
