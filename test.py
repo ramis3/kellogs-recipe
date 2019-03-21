@@ -978,45 +978,43 @@ recipe = {
 }
 
 
-name = "Life In Color"
+name = "Sticky Bun"
 
-link = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Life%20in%20Color.png?alt=media&token=e7ce7efd-31aa-4a00-8ecc-238ea8e5a1b5"
+link = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Sticky%20Bun.png?alt=media&token=661b2e43-92d2-4458-95c7-cdd2018979b7"
 
-name2 = "Maled Nutty Banana"
+name2 = "Super Corny"
 
-link2 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Malted%20Nutty%20Banana.png?alt=media&token=4ab0d14b-016a-4a60-85f9-6c983a0889ad"
+link2 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Super%20Corny.png?alt=media&token=b7c1d3e9-c76c-4a8b-a254-1329f5407cef"
 
-name3 = "Coffee Meringue"
+name3 = "The Circus"
 
-link3 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Coffee%20Meringue.png?alt=media&token=54881573-c208-4432-945a-4871a32b1767"
+link3 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/The%20Circus.png?alt=media&token=e113b594-4439-44a1-a857-a594ac556528"
 
-name4 = "Corny Blues"
+name4 = "The Sicilian"
 
-link4 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Corny%20Blues.png?alt=media&token=77d4a3f3-df45-403a-bf01-11600590647c"
+link4 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/The%20Sicilian.png?alt=media&token=454defc8-53e2-4e8e-a1c6-c68331aeb3cc"
 
-name5 = "Can Apple Crisp"
+name5 = "Tropical Mermaid"
 
-link5 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Cran-Apple%20Crisp.png?alt=media&token=88573adb-4f37-4749-a1a7-5204697d4a0c"
+link5 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Tropical%20Mermaid.png?alt=media&token=807a791e-842b-4833-ab6c-20e273c19901"
 
-name6 = "Duper Super"
+name6 = "Tropicalia"
 
-link6 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Duper%20Super.png?alt=media&token=7d56d89e-cfea-46a6-ad0f-aad112d0f34c"
+link6 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Tropicalia.png?alt=media&token=c4f27947-90ed-412c-8170-7dd8df428fa4"
 
-name7 = "Harvest Swoon"
+name7 = "Turkish Delight"
 
-link7 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Harvest%20Swoon.png?alt=media&token=6824b0c9-5b5f-4a14-976b-045e8fdd54c2"
+link7 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Turkish%20Delight.png?alt=media&token=fc4e46a1-4d57-4d5f-a10f-852213ba501c"
 
-name8 = "Hello Dolly"
+name8 = "Vietnamese Coffee"
 
-link8 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Hello%20Dolly.png?alt=media&token=c4a0b53b-09bc-48c8-a12d-66cfaa731326"
+link8 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Vietnamese%20Coffee.png?alt=media&token=da2b7655-cb3b-446c-a9da-3969a575b537"
 
-name9 = "Honey Buzz"
+name9 = "Whats Shakin Bacon"
 
-link9 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Honey%20Buzz.png?alt=media&token=7bfe846b-7b52-4029-885a-527227e3d074"
+link9 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Whats%20Shakin%20Bacon.png?alt=media&token=630a53f9-1b91-437d-8e15-0f6eed78d1a9"
 
-name10 = "Lemon Meringue Pie"
 
-link10 = "https://firebasestorage.googleapis.com/v0/b/kellogg-s-recipe-api.appspot.com/o/Lemon%20Meringue%20Pie.png?alt=media&token=96676827-d2f4-4e31-8870-bf6acb677b50"
 
 
 db.child("images").child(name).set(link)
@@ -1028,7 +1026,7 @@ db.child("images").child(name6).set(link6)
 db.child("images").child(name7).set(link7)
 db.child("images").child(name8).set(link8)
 db.child("images").child(name9).set(link9)
-db.child("images").child(name10).set(link10)
+
 
 #image = st.child("gs://kellogg-s-recipe-api.appspot.com").download("baklava.png")
 
