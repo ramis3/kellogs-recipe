@@ -33,10 +33,9 @@ class Cereal_List(Resource):
 
 class Image(Resource):
     def get(self, image_name):
-        filename = image_name + ".png"
-        #token = st.child("gs://kellogg-s-recipe-api.appspot.com/").put("temp.jpg")
-        image_url = st.child("gs://kellogg-s-recipe-api.appspot.com/" + filename).get_url('5673abc0-ba58-4b93-bddc-ed0c86d1e2ef')
-        response = { "image_url":image_url}
+        image_title = db.child("images").child(image_name).key()
+        image_url = db.child("images").child(image_name).value()
+        response = { image_title:image_url}
         response = jsonify(response)
         response.status_code = 200
         return response
