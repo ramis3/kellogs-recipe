@@ -34,8 +34,8 @@ class Cereal_List(Resource):
 
 class Image(Resource):
     def get(self, image_name):
-        image_title = db.child("images").child(image_name).key()
-        image_url = db.child("images").child(image_name).value()
+        image_title = db.child("images").child(image_name.title()).get().key()
+        image_url = db.child("images").child(image_name.title()).get().val()
         response = { image_title:image_url}
         response = jsonify(response)
         response.status_code = 200
